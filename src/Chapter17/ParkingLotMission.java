@@ -5,7 +5,7 @@ public class ParkingLotMission {
     public static void main(String[] args) {
 
         //
-        int useMoney = 35_000;
+        int useMoney = 200_000;
         int parkingTime = 4;
 
 
