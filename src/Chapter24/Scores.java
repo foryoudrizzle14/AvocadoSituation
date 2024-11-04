@@ -21,7 +21,7 @@ public class Scores {
         int sumBcLass1 = studentBClass1 + studentBClass2 + studentBClass3;
         double averageBcLass1 = sumBcLass1 / (double) 3;
 
-        System.out.printf("A 학급의 평균점수는 %f, B학급의 평균은 %f\n ", averageACLass1, averageBcLass1);
+        System.out.printf("A 학급의 평균점수는 %.2f, B학급의 평균은 %.2f\n ", averageACLass1, averageBcLass1);
 
     }
 }
