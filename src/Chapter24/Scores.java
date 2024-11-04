@@ -24,4 +24,9 @@ public class Scores {
         System.out.printf("A 학급의 평균점수는 %.2f, B학급의 평균은 %.2f\n ", averageACLass1, averageBcLass1);
 
     }
+
+    static double calculateAverage(int studentScore1, int studentScore2, int studentScore3) {
+        int subBClass = studentScore1 + studentScore2 + studentScore3;
+        return subBClass / (double)  3;
+    }
 }
