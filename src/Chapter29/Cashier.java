@@ -30,5 +30,14 @@ public class Cashier {
                         price = 0;
                         break;
         }
+        return price;
+    }
+
+    public void replyCoffeePrice(String coffeeName, int price){
+        if (price == 0){
+            System.out.println("캐시어 : 죄송합니다 손님 말씀하신 메뉴: " + coffeeName + "는 저희 가게에 없습니다.");
+
+        }
+        System.out.println("캐시어: 말씀하신 커피 " + coffeeName + "은 가격이" + price + "원 입니다.");
     }
 }
