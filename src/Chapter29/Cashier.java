@@ -40,4 +40,19 @@ public class Cashier {
         }
         System.out.println("캐시어: 말씀하신 커피 " + coffeeName + "은 가격이" + price + "원 입니다.");
     }
+    public void addAmount(int money){
+        this.salesAmount += money;
+    }
+    public void sayOrder(String coffeeName){
+        System.out.println("캐시어: 커피" + coffeeName +" 주문이 들어왔습니다.");
+    }
+    public Coffee wrapUpCoffee(Coffee coffee){
+        coffee.beWrappedUp();
+        return coffee;
+    }
+    public void sayCoffeeReady(Coffee coffee){
+        String coffeeName  = coffee.getCoffeeName();
+        System.out.println("캐시어: 주문하신 커피 " + coffeeName + "가 준비되없습니다.")
+
+    }
 }
