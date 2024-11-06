@@ -8,6 +8,7 @@ public class Barista {
 
     //속성
 
+
     //행위
     public void noticeOrder(String coffeeName){
         System.out.println("바리스타: 커피주문을 확인 했습니다. 커피:" + coffeeName);
