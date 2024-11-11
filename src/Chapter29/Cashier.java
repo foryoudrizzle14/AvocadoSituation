@@ -52,7 +52,7 @@ public class Cashier {
     }
     public void sayCoffeeReady(Coffee coffee){
         String coffeeName  = coffee.getCoffeeName();
-        System.out.println("캐시어: 주문하신 커피 " + coffeeName + "가 준비되없습니다.")
+        System.out.println("캐시어: 주문하신 커피 " + coffeeName + "가 준비되없습니다.");
 
     }
 }
