@@ -12,7 +12,7 @@ public class VIPCustomer {
     private double bonusPointRatio;
 
 
-    private String agentId;
+    private String agentID;
     private double discountRatio;
 
 
@@ -36,7 +36,7 @@ public class VIPCustomer {
         this.discountRatio = 0.1;
     }
 
-    public void setAgentId(String agentId) {
-        this.agentId = agentId;
+    public void setAgentId(String agentID) {
+        this.agentID = agentID;
     }
 }
